@@ -19,6 +19,7 @@ Preview:
 - Docker and Docker Compose, steps [here](https://opentelemetry.io/docs/demo/docker-deployment/)
 
 
+
 ### 1) Download the Astronomy Shop Demo 
 
 First we will clone the Astronomy Shop from its Github repository:
