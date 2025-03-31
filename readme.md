@@ -117,3 +117,7 @@ Other pages you can access:
 - Grafana: http://localhost:8080/grafana/
 - Load Generator UI: http://localhost:8080/loadgen/
 - Jaeger UI: http://localhost:8080/jaeger/ui/
+
+### 7) Visualize the data in Dynatrace
+
+
