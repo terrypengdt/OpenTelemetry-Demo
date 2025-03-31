@@ -15,8 +15,8 @@ Preview:
 - Compare the data we see from traces, metrics, logs using Otel vs OneAgent 
 
 ## Pre-requisities:
-- Dynatrace Managed/SaaS Account. Get your free 15-day SaaS trial account [here](https://www.dynatrace.com/signup/)
-- Docker and Docker Compose steps [here](https://opentelemetry.io/docs/demo/docker-deployment/)
+- Dynatrace Account, get your free 15-day SaaS trial account [here](https://www.dynatrace.com/signup/)
+- Docker and Docker Compose, steps [here](https://opentelemetry.io/docs/demo/docker-deployment/)
 
 Docs:
 Telemetry UI pages: https://opentelemetry.io/docs/demo/docker-deployment/#verify-the-web-store-and-telemetry
