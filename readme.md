@@ -18,8 +18,6 @@ Preview:
 - Dynatrace Account, get your free 15-day SaaS trial account [here](https://www.dynatrace.com/signup/)
 - Docker and Docker Compose, steps [here](https://opentelemetry.io/docs/demo/docker-deployment/)
 
-Docs:
-Telemetry UI pages: https://opentelemetry.io/docs/demo/docker-deployment/#verify-the-web-store-and-telemetry
 
 ### 1) Download the Astronomy Shop Demo 
 
@@ -117,6 +115,7 @@ Other pages you can access:
 - Grafana: http://localhost:8080/grafana/
 - Load Generator UI: http://localhost:8080/loadgen/
 - Jaeger UI: http://localhost:8080/jaeger/ui/
+- More pages [here](https://opentelemetry.io/docs/demo/docker-deployment/#verify-the-web-store-and-telemetry)
 
 ### 7) Visualize the data in Dynatrace
 
