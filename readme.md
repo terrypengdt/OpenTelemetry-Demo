@@ -88,6 +88,8 @@ Create an Access Token with the following scopes to ingest metrics, traces and l
 * Ingest metrics (metrics.ingest)
 * Ingest logs (logs.ingest)
 
+![alt_text](https://github.com/terrypengdt/OpenTelemetry-Demo/blob/main/images/Lab%202%20Otel%20token%20scope.png)
+
 ### 5) Export the environment variables 
 
 Pass the Access Token and Dynatrace Endpoint by replacing the placeholder values with your token and Environment ID. We can pass the values via the terminal in below's example however if you are in a production environment you would use a secret handling mechanism.
