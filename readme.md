@@ -108,8 +108,7 @@ This may take a couple of minutes the first time you deploy this app to download
 
 When the app is running, you'll start to see this:
 
-Paste image here
-
+![alt_text](https://github.com/terrypengdt/OpenTelemetry-Demo/blob/main/images/Lab%202%20compose.png)
 You should now be able to access the Web store: http://localhost:8080/
 
 Other pages you can access:
