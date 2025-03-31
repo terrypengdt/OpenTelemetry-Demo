@@ -14,11 +14,11 @@ Preview:
 - Compare Otel instrumentation with Dynatrace OneAgent auto-instrumentation 
 - Compare the data we see from traces, metrics, logs using Otel vs OneAgent 
 
-## Pre-requisities:
+### Pre-requisities:
 - Dynatrace Account, get your free 15-day SaaS trial account [here](https://www.dynatrace.com/signup/)
 - Docker and Docker Compose, steps [here](https://opentelemetry.io/docs/demo/docker-deployment/)
 
-
+<br />
 
 ### 1) Download the Astronomy Shop Demo 
 
