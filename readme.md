@@ -1,4 +1,4 @@
-# OpenTelemetry Demo using Dynatrace
+<img width="1191" alt="image" src="https://github.com/user-attachments/assets/e0eb8b06-6dcc-4a52-b2ac-e360f9aabfe4" /># OpenTelemetry Demo using Dynatrace
 
 This repository contains an OpenTelemetry instrumentation guide using the popular OpenTelemetry Astronomy Shop Demo application integrated with Dynatrace.
 
@@ -9,10 +9,6 @@ In this guide you'll learn how to:
 * Instrument your application with OpenTelemetry
 * Configure Dynatrace to collect and visualize telemetry data
 * Analyze traces, metrics and logs within the Dynatrace platform
-
-Preview:
-- Compare Otel instrumentation with Dynatrace OneAgent auto-instrumentation 
-- Compare the data we see from traces, metrics, logs using Otel vs OneAgent 
 
 ### Pre-requisities:
 - Dynatrace Account, get your free 15-day SaaS trial account [here](https://www.dynatrace.com/signup/)
@@ -120,4 +116,27 @@ Other pages you can access:
 
 ### 7) Visualize the data in Dynatrace
 
+Once the app has been running for a few minutes, you can start to visualize the data in Dynatrace. You'll see traces, metrics and logs and services of the demo app will also appear.
+
+#### You can see traces in the Distributed Tracing app
+
+Here I am filtering for traces from the "product-catalog" service, exploring the chain of spans and metadata from every request as it propagates through my system.
+![alt_text](https://github.com/terrypengdt/OpenTelemetry-Demo/blob/main/images/Lab%202%20product%20catalog%20trace.png)
+
+#### Next I have displayed a metric in the Notebooks app
+
+We can easily query any metric coming in from our OpenTelemetry app stored on our Grail data lakehouse. Here I am using the Notebooks to play around and test out different views for this metric.
+
+![alt_text](https://github.com/terrypengdt/OpenTelemetry-Demo/blob/main/images/Lab%202%20Metrics.png)
+
+#### The Logs app contains all the Logs coming in
+
+We can filter Logs coming in multiple sources including Otel, OneAgent and other ingestion methods. Clicking onto individual log lines, we can analyze the traces connected to the log file and analyze the request that propagated to this log.
+
+![alt_text](https://github.com/terrypengdt/OpenTelemetry-Demo/blob/main/images/Lab%202%20Logs.png)
+
+#### The Services app contains all the aggregated data
+
+Under the Services app we can see an overview of the performance on all of our Services, and our overall service health. Drilling deeper into any individual service page, we can see all the logs, metrics and traces associated with each service. 
+![alt_text](https://github.com/terrypengdt/OpenTelemetry-Demo/blob/main/images/Lab%202%20Services.png)
 
