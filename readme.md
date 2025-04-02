@@ -16,6 +16,8 @@ In this guide you'll learn how to:
 
 <br />
 
+![alt_text](https://github.com/terrypengdt/OpenTelemetry-Demo/blob/main/images/Lab%202%20main%20page.png)
+
 ### 1) Download the Astronomy Shop Demo 
 
 First we will clone the Astronomy Shop from its Github repository:
