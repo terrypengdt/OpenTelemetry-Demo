@@ -1,4 +1,4 @@
-<img width="1191" alt="image" src="https://github.com/user-attachments/assets/e0eb8b06-6dcc-4a52-b2ac-e360f9aabfe4" /># OpenTelemetry Demo using Dynatrace
+# OpenTelemetry Demo using Dynatrace
 
 This repository contains an OpenTelemetry instrumentation guide using the popular OpenTelemetry Astronomy Shop Demo application integrated with Dynatrace.
 
